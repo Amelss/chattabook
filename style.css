@@ -1,0 +1,67 @@
+body{
+    font-family: 'Quicksand', sans-serif; 
+    background: rgb(23,58,107);
+    background: linear-gradient(164deg, rgba(23,58,107,1) 0%, rgba(137,113,227,1) 40%, rgba(130,64,157,1) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.app{
+    margin-top: 150px;
+    text-align: center;
+}
+
+img{
+text-align: center;
+margin-top: 40px;
+}
+
+#signup{
+    margin-top: 70px;
+}
+
+#name, #email{
+    border-radius: 5px;
+    border: none;
+    padding: 14px 100px 14px 10px;
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 19px;
+    font-weight: 300;
+}
+
+#email{
+    margin-bottom: 20px;
+}
+
+::placeholder{
+    color: rgb(207, 207, 207);
+}
+
+#button{
+    border: none;
+    border-radius: 5px;
+    padding: 9px 105px 9px 105px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif; 
+    background-color: rgb(81, 78, 221);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2);
+    text-decoration: none;
+    
+}
+
+.welcome{
+    font-size: 30px;
+    margin-top: 350px;
+}
+
+
